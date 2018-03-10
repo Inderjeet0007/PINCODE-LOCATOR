@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nearby Places Page</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	
+</head>
+<body>
+	<div class="ui">
+		<div class="buttons">
+			<div class="col-3">
+				<h1>NearbyPlaces</h1>
+			</div>
+			<div class="col-6">
+				<h4>Select the places you are looking for: </h4> 
+				<button id="hosp">Hospital</button>
+				<button id="sch">School</button>
+				<button id="pol">Police</button>
+			</div>
+		</div>
+	</div>
+	<div id="map"></div>
+<script type="text/javascript" src="js/index.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDLIFDc3H8nRLLvA0I-sr2U_c9v5-QsUc&libraries=places&callback=initMap" async defer></script>
+</body>
+<html>
